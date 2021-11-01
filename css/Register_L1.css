@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to left, #273c75,#ff6b6b); */
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.maindiv{
+    width: 100%;
+    height: 100vh;
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.forms{
+    width: 33%;
+    height: auto;
+    border: solid 1px white;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(245, 225, 235);
+    padding: 20px 40px;
+    border-radius: 10px;
+	box-shadow: 3px 3px 4px rgb(22, 22, 22);
+}
+
+.forms h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+	background-image: linear-gradient(43deg, #fdc04f 0% , #c743be 46%, #344fd3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.forms p{
+    text-align: left;
+    font-size: 16px;
+    color: rgb(75, 73, 73);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.forms input{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 500;
+    background-color: rgb(240, 225, 233);
+
+}
+
+.forms input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.forms #submit{
+    width: 38%;
+    padding-left: 0px;
+    border-radius: 10px;
+    background-color: rgb(57, 114, 236);
+    color: white;
+    background-image: linear-gradient(to left, #273c75,#ff6b6b);
+    font-weight: 500;
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.maindiv .arrow{
+    color: white;
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.throwback{
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 500;
+    color: red;
+}

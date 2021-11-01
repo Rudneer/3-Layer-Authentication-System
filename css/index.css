@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to left, #273c75,#ff6b6b); */
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_div{
+	width: 100%;
+	height: 100vh;
+	background-color: #4158D0;
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	position: relative;
+}
+
+.main_div p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.form_back{
+    width: 30%;
+    height: auto;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+    background-color: rgb(245, 225, 235);
+	padding: 50px;
+	border-radius: 15px;
+	box-shadow: 3px 3px 4px rgb(39, 39, 39);
+}
+
+.form_back h1{
+	margin-bottom: 30px;
+	text-align: center;
+    font-weight: 500;
+    background-image: linear-gradient(43deg, #fcb634 10% , #c743be 56%, #2744d4 80%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form_back .inputs{
+	position: relative;
+}
+
+.form_back .inputs input{
+	width: 100%;
+	padding: 10px;
+	border:none;
+	outline: none;
+	border-bottom: 2px solid rgb(43, 42, 42);
+	margin-bottom: 20px;
+	background:transparent;
+	font-size: 18px;
+    padding-left: 25px;
+}
+
+.submits input[type="submit"]{
+	width: 100%;
+	margin-top: 10px;
+	padding: 15px 0;
+	font-size: 19px;
+	color:white;
+	background-image: linear-gradient(to left, #273c75,#ff6b6b);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.inputs label{
+	position: absolute;
+	left: 0;
+	top: 0;
+	letter-spacing: 1px;
+	font-size: 16px;
+	padding: 10px 0;
+	transition-duration: 0.5s;
+    font-weight: 500;
+    color: rgb(73, 73, 73);
+    padding-left: 25px;
+}
+
+ .inputs input:focus ~ label,
+ .inputs input:valid ~ label{
+ 	left: 0;
+ 	top: -20px;
+ 	color: blue;
+ 	font-size: 12px;
+ }
+
+.form_back #icons{
+    position: absolute;
+    padding-top: 13px;
+}
+
+.submits a{
+    font-size: 13px;
+    padding-left: 12.5%;
+}
+
